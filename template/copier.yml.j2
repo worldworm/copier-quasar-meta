@@ -1,0 +1,9 @@
+_subdirectory: template
+_templates_suffix: .jinja
+_answers_file: .copier-answers.[[ "quasar" if template_suffix == "" else "quasar-" ~ template_suffix ]].yml
+
+_tasks:
+  - "npm install"
+
+[% include "shared-config/common.yml" %]
+[% include "shared-config/docker.yml" %]
