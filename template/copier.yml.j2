@@ -4,6 +4,7 @@ _answers_file: .copier-answers.[[ "quasar" if template_suffix == "" else "quasar
 
 _tasks:
   - "npm install"
+  - "[ -d .git ] && pre-commit install --install-hooks || true"
 
 [% include "shared-config/common.yml" %]
 [% include "shared-config/docker.yml" %]
