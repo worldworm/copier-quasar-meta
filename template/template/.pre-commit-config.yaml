@@ -16,7 +16,6 @@ repos:
         entry: npm run lint
         language: system
         pass_filenames: false
-        files: package.json
   - repo: local
     hooks:
       - id: forbidden-files
