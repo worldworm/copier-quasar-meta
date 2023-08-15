@@ -11,15 +11,15 @@ repos:
       - id: check-added-large-files
   - repo: local
     hooks:
-      - id: eslint
-        name: eslint
-        entry: npm[[ " --prefix " ~ subdir_name if use_subdir else "" ]] run lint
-        language: system
-        pass_filenames: false
-  - repo: local
-    hooks:
       - id: forbidden-files
         name: forbidden files
         entry: found Copier update rejection files; review them and remove them
         language: fail
         files: "\\.rej$"
+  - repo: local
+    hooks:
+      - id: eslint
+        name: eslint
+        entry: npm[[ " --prefix " ~ subdir_name if use_subdir else "" ]] run lint
+        language: system
+        pass_filenames: false
