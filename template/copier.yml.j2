@@ -3,7 +3,7 @@ _templates_suffix: .jinja
 _answers_file: .copier-answers.[[ "quasar" if template_suffix == "" else "quasar-" ~ template_suffix ]].yml
 
 _tasks:
-  - "npm install"
+  - "npm[[ " --prefix " ~ subdir_name if use_subdir else "" ]] install"
   - "[ -d .git ] && pre-commit install --install-hooks || true"
 
 [% include "shared-config/common.yml" %]
