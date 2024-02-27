@@ -5,8 +5,12 @@
 
 
 <!-- Place https://shields.io/ badges here -->
-
-
+[![GitHub repo stars](https://img.shields.io/github/stars/worldworm/copier-quasar-meta)](https://github.com/worldworm/copier-quasar-meta)
+[![License](https://img.shields.io/badge/license-MIT-green?logo=opensourceinitiative&logoColor=fff)](https://github.com/worldworm/copier-quasar-meta/blob/main/LICENSE)
+[![GitHub last commit (main)](https://img.shields.io/github/last-commit/worldworm/copier-quasar-meta/main)](https://github.com/worldworm/copier-quasar-meta/commits/main/)
+[![GitHub release](https://img.shields.io/github/v/release/worldworm/copier-quasar-meta)](https://github.com/worldworm/copier-quasar-meta/releases/latest)
+[![GitHub commits since latest release](https://img.shields.io/github/commits-since/worldworm/copier-quasar-meta/latest/main)](https://github.com/worldworm/copier-quasar-meta/releases/latest)
+[![Copier supported version](https://img.shields.io/badge/Copier-v9-blue)](https://github.com/copier-org/copier)
 
 
 ## Features
@@ -32,23 +36,23 @@ pip install copier
 > The template resulting from this meta template can be used for this purpose: [copier-quasar](https://github.com/worldworm/copier-quasar)
 
 
-
 Make sure the requirements are met, then:
 ```bash
-copier copy --trust "https://github.com/worldworm/copier-quasar-meta.git" /new/project/path
+copier copy "https://github.com/worldworm/copier-quasar-meta.git" .
 ```
 
 ### Update
 To update a template after creating a project, run:
 ```bash
-copier update --trust -a .project/.copier-answers.quasar-meta.yml /some/project/path
+copier update -a .project/.copier-answers.quasar-meta.yml .
 ```
+
 
 ## Explore more Copier templates
 In addition to this template, there are a number of other Copier templates available. For an overview of all available templates, visit the [Templates Showcase repository](https://github.com/worldworm/copier-showcase).
 
 ---
 <p align="center">
-  <i>© <a href="https://github.com/worldworm">worldworm</a> 2023</i><br>
-  <i>Licensed under <a href="https://github.com/worldworm/copier-quasar-meta/blob/main/LICENSE">MIT</a></i><br>
+  <i>© <a href="https://github.com/worldworm">worldworm</a> 2023-2024</i>
+  <br><i>Licensed under <a href="https://github.com/worldworm/copier-quasar-meta/blob/main/LICENSE">MIT</a></i>
 </p>

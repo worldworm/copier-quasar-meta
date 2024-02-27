@@ -1,16 +1,17 @@
 # Changes here will be overwritten by Copier
-_commit: v1.1.0
+_commit: v1.2.0
 _src_path: https://github.com/worldworm/copier-base-copier.git
 answersfile_suffix: quasar-meta
 child_template_name: copier-quasar
 child_template_url: https://github.com/worldworm/copier-quasar
+copier_version: '9'
 copyright_license: MIT
 copyright_year_start: 2023
-copyright_year_today: 2023
+copyright_year_today: 2024
 is_bp: false
 is_ext: false
 is_meta: true
-need_trust: true
+need_trust: false
 project_description: Copier meta template for quasar projects.
 project_emoji: 📋
 project_name: copier-quasar-meta
@@ -20,4 +21,3 @@ repository_provider: GitHub
 repository_url: https://github.com/worldworm/copier-quasar-meta
 repository_username: worldworm
 warning_early_dev: false
-
