@@ -14,12 +14,12 @@
 
 
 ## Features
-- [Quasar](https://github.com/quasarframework/quasar) setup
-- Continuous integration (CI) pipelines for Github Actions and GitLab CI/CD
-- Docker support with build and publish pipelines
-- [pre-commit](https://github.com/pre-commit/pre-commit) hooks
-- [ESLint](https://github.com/eslint/eslint) code linter
-- [VSCode](https://github.com/microsoft/vscode) configuration
+- 📦 [Quasar](https://github.com/quasarframework/quasar) setup
+- 🔁 Continuous integration (CI) pipelines for Github Actions and GitLab CI/CD
+- 🐳 Docker support with build and publish pipelines
+- 🪝 [pre-commit](https://github.com/pre-commit/pre-commit) hooks
+- 🔍 [ESLint](https://github.com/eslint/eslint) code linter
+- 🆚 [VSCode](https://github.com/microsoft/vscode) configuration
 
 
 ## Requirements
