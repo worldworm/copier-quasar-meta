@@ -14,7 +14,7 @@
 
 
 ## Features
-- 📦 [Quasar](https://github.com/quasarframework/quasar) setup
+- 🌌 [Quasar](https://github.com/quasarframework/quasar) setup
 - 🔁 Continuous integration (CI) pipelines for Github Actions and GitLab CI/CD
 - 🐳 Docker support with build and publish pipelines
 - 🪝 [pre-commit](https://github.com/pre-commit/pre-commit) hooks
