@@ -34,6 +34,9 @@
 <script setup lang="ts">
 import { ref } from "vue";
 import MenuItem, { MenuItemProps } from "components/MenuItem.vue";
+import { useQuasar } from "quasar";
+
+const $q = useQuasar();
 
 defineOptions({
   name: "MainLayout",
