@@ -1,4 +1,5 @@
 <template>
+  <!-- @vue-ignore -->
   <q-item
     clickable
     tag="a"
