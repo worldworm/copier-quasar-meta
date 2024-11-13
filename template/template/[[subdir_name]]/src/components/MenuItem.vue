@@ -4,7 +4,7 @@
     clickable
     tag="a"
     :to="link"
-    :href="externalLink"
+    :href="external_link"
     v-ripple
     :active="$router.currentRoute.value.path == link"
   >
@@ -39,7 +39,7 @@ const props = withDefaults(defineProps<MenuItemProps>(), {
   separator: false,
 });
 
-const externalLink = computed((): string | undefined => {
+const external_link = computed((): string | undefined => {
   return /^https?:\/\//.test(props.link) ? props.link : undefined;
 });
 </script>
