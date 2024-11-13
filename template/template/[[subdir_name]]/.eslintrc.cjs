@@ -73,6 +73,14 @@ module.exports = {
 
     quotes: ["warn", "double", { avoidEscape: true }],
 
+    "@typescript-eslint/naming-convention": [
+      "warn",
+      {
+        selector: "variableLike",
+        format: ["snake_case"],
+      },
+    ],
+
     // this rule, if on, would require explicit return type on the `render` function
     "@typescript-eslint/explicit-function-return-type": "off",
 
