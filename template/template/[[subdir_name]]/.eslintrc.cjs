@@ -73,6 +73,8 @@ module.exports = {
 
     quotes: ["warn", "double", { avoidEscape: true }],
 
+    "max-len": ["warn", { code: 150 }],
+
     "@typescript-eslint/naming-convention": [
       "warn",
       {
