@@ -2,14 +2,7 @@
   <q-layout view="hHh Lpr lFf">
     <q-header elevated>
       <q-toolbar>
-        <q-btn
-          flat
-          dense
-          round
-          icon="menu"
-          aria-label="Menu"
-          @click="toggle_left_drawer"
-        />
+        <q-btn flat dense round icon="menu" aria-label="Menu" @click="toggle_left_drawer" />
 
         <q-toolbar-title> Quasar App </q-toolbar-title>
 
