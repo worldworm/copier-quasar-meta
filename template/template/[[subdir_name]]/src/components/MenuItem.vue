@@ -1,6 +1,6 @@
 <template>
   <!-- @vue-ignore -->
-  <q-item clickable tag="a" :to="link" :href="external_link" v-ripple :active="$router.currentRoute.value.path == link">
+  <q-item v-ripple clickable tag="a" :to="link" :href="external_link" :active="$router.currentRoute.value.path == link">
     <q-item-section v-if="icon" avatar>
       <q-icon :name="icon" />
     </q-item-section>
